@@ -1413,3 +1413,17 @@ msgstr "Unknown order ID."
 msgid "User is not registered."
 msgstr "User is not registered."
 
+msgid "Login with Facebook"
+msgstr "Login with Facebook"
+
+msgid "Would you like to associate this authentication method with an existing account?"
+msgstr "Would you like to associate this authentication method with an existing account?"
+
+msgid "Skip this step"
+msgstr "Skip this step"
+
+msgid "Associate"
+msgstr "Associate"
+
+msgid "Associate with an existing account"
+msgstr "Associate with an existing account"
