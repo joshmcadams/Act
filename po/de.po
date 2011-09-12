@@ -888,3 +888,18 @@ msgstr "Abrechnung"
 
 msgid "Delayed payment"
 msgstr "verbindlich anmelden"
+
+msgid "Login with Facebook"
+msgstr "Mit Facebook Anmelden"
+
+msgid "Would you like to associate this authentication method with an existing account?"
+msgstr "Möchten Sie diese Authentifizierungsmethode mit einem bestehenden Konto verbinden?"
+
+msgid "Skip this step"
+msgstr "Diesen Einzelschritt auslassen"
+
+msgid "Associate"
+msgstr "Verbinden"
+
+msgid "Associate with an existing account"
+msgstr "Mit einem bestehenden Konto verbinden"
