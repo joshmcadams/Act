@@ -1,15 +1,195 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="[% global.request.language %]" xml:lang="[% global.request.language %]">
-<head>
-<link rel="shortcut icon" type="image/png" href="/favicon.png" />
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="stylesheet" type="text/css" href="[% make_uri_info('css', 'act-base.css') %]" />
 [% IF title %]<title>[% title  %]</title>[% END %]
-</head>
-<body>
-[% IF title %]<h1>[% title  %]</h1>[% END %]
+<link rel="shortcut icon" type="image/png" href="/favicon.png" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="generator" content="WebGUI 7.10.23" /><meta http-equiv="Content-Script-Type" content="text/javascript" /><meta http-equiv="Content-Style-Type" content="text/css" /><script type="text/javascript">function getWebguiProperty (propName) {var props = new Array();props["extrasURL"] = "/extras/";props["pageURL"] = "/conference2";props["firstDayOfWeek"] = "0";return props[propName];}</script><link href="/layout.css" rel="stylesheet" type="text/css" /><!--page layout--><meta http-equiv="Cache-Control" content="must-revalidate" />
+
+  <link rel="stylesheet" href="http://www.yapcna.org/root/import/yapc::na/site.css" type="text/css" media="all" />
+ <link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
+  <!--[if IE 6]>
+    <link rel="stylesheet" href="http://www.yapcna.org/root/import/yapc::na/ie6.css" type="text/css" media="screen" />
+  <![endif]-->
+  <!--[if IE 7]>
+    <link rel="stylesheet" href="http://www.yapcna.org/root/import/yapc::na/ie7.css" type="text/css" media="screen" />
+  <![endif]-->
+  <!--[if IE 8]>
+    <link rel="stylesheet" href="http://www.yapcna.org/root/import/yapc::na/ie8.css" type="text/css" media="screen" />
+  <![endif]-->
+
+  </head>
+  <body>
+
+<div class="wrap">
+  <div id="home">
+    <div id="header">
+      <div class="skip"><a href="#content" accesskey="S">Skip to main content</a></div>
+
+      <a id="uwhome" href="http://www.perlfoundation.org">The Perl Foundation</a>
+
+      <a id="crest" href="http://www.yapcna.org"><img src="http://www.yapcna.org/root/import/yapc::na/logo.png" alt="YAPC Logo" /></a>
+
+      <div id="siteTitle">
+        <h1><span><a href="/">YAPC::NA 2012</a></span></h1>
+        <div id="tagline"><span>Yet Another Perl Conference : North America - Madison, Wisconsin - June 13-15, 2012</span></div>
+      </div>
+
+      <ul id="globalnav">
+        <li class="first"><a href="http://www.facebook.com/yapcna">Facebook</a></li>
+        <li><a href="https://twitter.com/#!/yapcna">Twitter</a></li>
+        <li class="last"><a href="http://www.linkedin.com/groups/YAPC-NA-3982433">Linked In</a></li>
+      </ul>
+
+      <ul class="buttons" id="donate">
+    <li><a class="cta cta-subhead cta-green" href="https://secure.donor.com/pf012/give"><span>Donate Now!<i>Help Create A Better Perl</i></span></a></li>
+      </ul>
+
+    </div>
+
+    <ul class="main-menu">
+    <li><h2><a href="/blarg/">Home</a></h2> </li>
+    <li><h2><a href="/blarg/main/">Main</a></h2> </li>
+
+    </ul>
+
+
+    <div id="shell">
+
+      <div id="content" class="main col">
+        <h1 style="display: none;">Conference</h1>
+<div id="layout2a6ed3c363809d71aea0ddb1e713a7ad" class="layout default">
+
+<a name="idKm7Tw2OAnXGuoN2x5xOnrQ" id="idKm7Tw2OAnXGuoN2x5xOnrQ"></a>
+
+
+
+
+[% IF title %]<h2>[% title  %]</h2>[% END %]
 
 [% content %]
+
+
+
+
+<!-- begin position 1 -->
+<div class="wg-content-position">
+
+    
+    
+    
+    
+    
+
+<!-- end position 1 -->  
+</div>
+
+<div class="wg-clear"></div>
+
+  
+
+<!--/layout2a6ed3c363809d71aea0ddb1e713a7ad /layout default-->
+</div>
+
+
+</div><div id="sidebar" class="col">
+
+    <div id="folder512fb4b73ba155272a4ae28b8bb32862" class="folder">
+
+<a name="idUS_0tzuhVScqSuKLi7MoYg" id="idUS_0tzuhVScqSuKLi7MoYg"></a>
+
+
+    
+
+    <h2>Sponsors</h2>
+
+        
+
+            
+
+
+<ul id="sponsors">
+
+<li>
+        
+        
+<a href="https://www.thegamecrafter.com/"><img src="http://www.yapcna.org/uploads/71/e6/71e69165e2d51a805281badd5eafea1d/250x160.png" alt="The Game Crafter" title="The Game Crafter"></a>
+
+</li>
+
+<li>
+        
+        
+<a href="http://www.plainblack.com/"><img src="http://www.yapcna.org/uploads/8f/e7/8fe71187249113c8eea63dac8aa68078/pb_url_black.png" alt="Plain Black" title="Plain Black"></a>
+
+</li>
+
+<li>
+        
+        
+<a href="http://www.uwex.edu/"><img src="http://www.yapcna.org/uploads/58/9b/589b7789f8f81df060289622c0072775/uw-extension-logo-210x64.gif" alt="UW Extension" title="UW Extension"></a>
+
+</li>
+
+<li>
+        
+        
+<a href="http://www.perl-magazin.de/"><img src="http://www.yapcna.org/uploads/f8/2d/f82d181a6514f2a4df0bdca350bf0c43/FooLogo.png" alt="$foo Magazine" title="$foo Magazine"></a>
+
+</li>
+
+<li>
+        
+        
+<a href="http://www.linode.com"><img src="http://www.yapcna.org/uploads/18/0c/180c5accb1dcb5c8d97932a4bf1132f5/linode_logo_gray.png" alt="Linode" title="Linode"></a>
+
+</li>
+
+<li>
+        
+        
+<a href="http://www.madmongers.org/"><img src="http://www.yapcna.org/uploads/86/c5/86c5b4f8b55535c3dc2e8ac302ec7875/madmongers-black.png" alt="MadMongers" title="MadMongers"></a>
+
+</li>
+
+
+</ul>
+
+<!--/folder512fb4b73ba155272a4ae28b8bb32862 /folder-->
+</div>
+
+
+
+    <div id="perladserver"><script type="text/javascript"  src="http://pcas.szabgab.com/ads/direct_link_selflink.js"></script></div>
+
+
+
+      </div>
+    </div>
+  </div>
+
+  <div id="footer">
+    <p>&copy;2011 <a href="http://www.perlfoundation.org">The Perl Foundation</a></p>
+
+  </div>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js" type="text/javascript"></script>
+  <script type="text/javascript" src="http://www.yapcna.org/root/import/yapc::na/hoverintent.js"></script>
+  <script type="text/javascript" src="http://www.yapcna.org/root/import/yapc::na/superfish.js"></script>
+  <script type="text/javascript">
+      <!--
+        if ($.browser.mozilla && (parseFloat($.browser.version) < 1.9)) {
+          document.write('<link rel="stylesheet" href="css/mozilla2.css" type="text/css" media="screen">');
+        }
+      // -->
+    </script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('ul.main-menu').superfish();
+    });
+  </script>
 
 </body>
 </html>
