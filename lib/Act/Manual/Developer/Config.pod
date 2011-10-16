@@ -34,7 +34,7 @@ A hash which holds information about the current request.
 
 =item r
 
-The Apache request object.
+The L<Act::Request> object.
 
 =item args
 
