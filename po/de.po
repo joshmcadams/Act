@@ -904,8 +904,8 @@ msgstr "Verbinden"
 msgid "Associate with an existing account"
 msgstr "Mit einem bestehenden Konto verbinden"
 
-msgid "Login with Twitter";
-msgid "Bei Twitter Anmelden";
+msgid "Login with Twitter"
+msgstr "Bei Twitter Anmelden"
 
 msgid "May we record your talk?"
 msgstr "Dürfen wir Ihren Vortrag aufnehmen?"
