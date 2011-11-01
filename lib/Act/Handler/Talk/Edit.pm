@@ -23,7 +23,7 @@ my $form = Act::Form->new(
   required => [qw(title abstract)],
   optional => [qw(url_abstract url_talk comment duration is_lightning
                   accepted confirmed date time room delete track_id level lang
-                  tags )],
+                  tags opt_out_reason)],
   filters  => {
      track_id => sub { $_[0] || undef },
      tags     => sub { join ' ',  Act::Tag->split_tags( $_[0] ) },
@@ -90,13 +90,17 @@ sub handler {
       unless $Request{user}->has_registered;
 
     # automatically compute the return URL
-    my $referer = $Request{r}->header_in('Referer');
+    my $referer = $Request{r}->header('Referer');
     $Request{args}{return_url} ||= $referer
         if $referer =~ m{/(?:main|talks?|schedule|user)};
 
     if ($Request{args}{submit}) {
         # form has been submitted
         my @errors;
+
+        if($Request{args}{record_talk_ok} eq 'on') {
+            delete @{ $Request{args} }{qw/record_talk_ok opt_out_reason/};
+        }
 
         # validate form fields
         my $ok = $form->validate($Request{args});
