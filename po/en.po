@@ -1430,3 +1430,9 @@ msgstr "Associate with an existing account"
 
 msgid "Login with Twitter"
 msgstr "Login with Twitter"
+
+msgid "May we record your talk?"
+msgstr "May we record your talk?"
+
+msgid "Aww, why not?"
+msgstr "Aww, why not?"
