@@ -51,7 +51,7 @@
 
     <ul class="main-menu">
     <li><h2><a href="/blarg/">Home</a></h2> </li>
-    <li><h2><a href="/blarg/main/">Main</a></h2> </li>
+    <li><h2><a href="/blarg/main/">Login / Register</a></h2> </li>
 
     </ul>
 
@@ -106,56 +106,9 @@
     <h2>Sponsors</h2>
 
         
+    <iframe src="http://www.yapcna.org/sponsors-folder?func=ajaxInlineView" id="sponsors-iframe" height="600" scrolling="no" noResize="yes"></iframe>
 
             
-
-
-<ul id="sponsors">
-
-<li>
-        
-        
-<a href="https://www.thegamecrafter.com/"><img src="http://www.yapcna.org/uploads/71/e6/71e69165e2d51a805281badd5eafea1d/250x160.png" alt="The Game Crafter" title="The Game Crafter"></a>
-
-</li>
-
-<li>
-        
-        
-<a href="http://www.plainblack.com/"><img src="http://www.yapcna.org/uploads/8f/e7/8fe71187249113c8eea63dac8aa68078/pb_url_black.png" alt="Plain Black" title="Plain Black"></a>
-
-</li>
-
-<li>
-        
-        
-<a href="http://www.uwex.edu/"><img src="http://www.yapcna.org/uploads/58/9b/589b7789f8f81df060289622c0072775/uw-extension-logo-210x64.gif" alt="UW Extension" title="UW Extension"></a>
-
-</li>
-
-<li>
-        
-        
-<a href="http://www.perl-magazin.de/"><img src="http://www.yapcna.org/uploads/f8/2d/f82d181a6514f2a4df0bdca350bf0c43/FooLogo.png" alt="$foo Magazine" title="$foo Magazine"></a>
-
-</li>
-
-<li>
-        
-        
-<a href="http://www.linode.com"><img src="http://www.yapcna.org/uploads/18/0c/180c5accb1dcb5c8d97932a4bf1132f5/linode_logo_gray.png" alt="Linode" title="Linode"></a>
-
-</li>
-
-<li>
-        
-        
-<a href="http://www.madmongers.org/"><img src="http://www.yapcna.org/uploads/86/c5/86c5b4f8b55535c3dc2e8ac302ec7875/madmongers-black.png" alt="MadMongers" title="MadMongers"></a>
-
-</li>
-
-
-</ul>
 
 <!--/folder512fb4b73ba155272a4ae28b8bb32862 /folder-->
 </div>
@@ -172,6 +125,7 @@
 
   <div id="footer">
     <p>&copy;2011 <a href="http://www.perlfoundation.org">The Perl Foundation</a></p>
+    <p><a href="http://www.linode.com">Hosting provided by Linode</a></p>
 
   </div>
 </div>
