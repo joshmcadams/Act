@@ -1413,6 +1413,9 @@ msgstr "Unknown order ID."
 msgid "User is not registered."
 msgstr "User is not registered."
 
+msgid "Sorry, registration for this conference has been closed."
+msgstr "Sorry, registration for this conference has been closed."
+
 msgid "Login with Facebook"
 msgstr "Login with Facebook"
 
